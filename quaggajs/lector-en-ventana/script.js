@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	const $btnEscanear = document.querySelector("#btnEscanear"),
 	$input = document.querySelector("#codigo");
 	$btnEscanear.addEventListener("click", ()=>{
-		window.open("leer.html");
+		window.open("leer.php");
 	});
 
 	window.onCodigoLeido = datosCodigo => {

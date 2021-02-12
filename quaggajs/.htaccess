@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^quaggajs\.frankmorenoalburqueque\.com$
+RewriteRule ^/?$ "https\:\/\/quaggajs\.frankmorenoalburqueque\.com\/" [R=301,L]
+
